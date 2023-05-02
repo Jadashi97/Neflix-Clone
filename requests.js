@@ -1,6 +1,6 @@
 // Is it okay to store the API key in the code?
 // https://www.themoviedb.org/?language=en-US
-const apiKey = '3f4222ee952851cbfdd6dc121cf6e55d'
+const apiKey = '3f4222ee952851cbfdd6dc121cf6e55d';
 
 const requests = {
   fetchTrending: `/trending/all/week?api_key=${apiKey}&language=en-US`,
