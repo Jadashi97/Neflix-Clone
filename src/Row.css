@@ -15,6 +15,7 @@
     max-height: 100px;
     margin-right: 10px;
     transition: transform 450ms;
+    align-items: center;
 }
 
 /* this makes it grow when hover over it */
