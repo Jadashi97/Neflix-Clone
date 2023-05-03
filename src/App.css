@@ -1,6 +1,4 @@
 *{
   margin: 0;
-}
-.row_posters {
-  display: flex;
+  box-sizing: border-box;
 }
