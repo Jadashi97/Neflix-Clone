@@ -1,6 +1,7 @@
 import './App.css'
 import Row from './components/Row';
 import requests from "../requests";
+import Banner from './components/Banner';
 
 
 
@@ -9,7 +10,7 @@ function App() {
 
   return (
     <div className='app'>
-      <h1>Hello! Time to build Netflix Clone!</h1>
+      <Banner/>
       <Row 
         title="NETFLIX ORIGINALS"
         fetchUrl={requests.fetchNetflixOriginals}
