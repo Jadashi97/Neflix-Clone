@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import axios from "../../axios";
 import requests from '../../requests';
+import ".././styles.css/Banner.css";
 
 const Banner = () => {
     const [movie, setMovie] = useState([]);
@@ -31,18 +32,17 @@ const Banner = () => {
                 backgroundPosition: "center center"
             }}
         >
-            
             <div className='banner_contents'>
-                <h1>
-                    {/* use optional chaining to make sure */}
+                <h1 className='banner_title'>
+                    {/* use optional chaining to make sure we account for edge cases if the movie does not have certain props */}
                     {movie?.title || movie?.name || movie?.original_name}
                 </h1>
+                <div>
+                    <button className='banner_button'>Play</button>
+                    <button className='banner_button'>My List</button>
+                </div>
+                <h1 className='banner_description'>{movie?.overview}</h1>
             </div>
-
-            {/* background Image */}
-            {/* header */}
-            {/* div + 2 buttons */}
-            {/* description */}
         </header>
     )
 }
