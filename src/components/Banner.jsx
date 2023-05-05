@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import axios from 'axios';
+import axios from "../../axios";
 import requests from '../../requests';
 
 const Banner = () => {
@@ -21,8 +21,24 @@ const Banner = () => {
     console.log(movie);
 
     return (
-        <header>
-            {" "}
+        <header 
+            className='banner'
+            style={{
+                backgroundSize: "cover",
+                backgroundImage: `url(
+                    "https://image.tmdb.org/t/p/original/${movie?.backdrop_path}"
+                )`,
+                backgroundPosition: "center center"
+            }}
+        >
+            
+            <div className='banner_contents'>
+                <h1>
+                    {/* use optional chaining to make sure */}
+                    {movie?.title || movie?.name || movie?.original_name}
+                </h1>
+            </div>
+
             {/* background Image */}
             {/* header */}
             {/* div + 2 buttons */}
