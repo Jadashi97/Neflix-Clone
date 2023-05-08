@@ -1,16 +1,17 @@
-import React from 'react'
+import React from 'react';
+import ".././styles.css/Navbar.css"
 
 const Navbar = () => {
   return (
-    <div>
+    <div className='nav'>
         <img
-          className=''
-          src='https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.edigitalagency.com.au%2Flogos%2Fnew-netflix-logo-png%2F&psig=AOvVaw38bMqz3UTYKNLr8tQMAfii&ust=1683562267334000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCICrlqnM4_4CFQAAAAAdAAAAABAE'
+          className='nav_logo'
+          src='https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Netflix_2014_logo.svg/300px-Netflix_2014_logo.svg.png?20140810085105'
           alt='netlix logo'
         />
         <img
-          className=''
-          src='https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.edigitalagency.com.au%2Flogos%2Fnew-netflix-logo-png%2F&psig=AOvVaw38bMqz3UTYKNLr8tQMAfii&ust=1683562267334000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCICrlqnM4_4CFQAAAAAdAAAAABAE'
+          className='nav_avatar'
+          src='https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Netflix-avatar.png/640px-Netflix-avatar.png'
           alt='avatar logo'
         />
     </div>
