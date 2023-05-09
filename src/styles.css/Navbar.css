@@ -3,8 +3,14 @@
     top: 0;
     width: 100%;
     padding: 20px;
+    height: 30px;
     display: flex;
     justify-content: space-between;
+    z-index: 1;
+
+    /* animations */
+    transition-timing-function: ease-in;
+    transform: all 1.09s;
 }
 
 .nav_black{
