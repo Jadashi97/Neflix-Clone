@@ -28,7 +28,7 @@ const Row = ({title, fetchUrl, isLargeRow}) => {
         width: "100%",
         playerVars: {
             autoplay: 1,
-        }
+        },
     };
 
     // handling when movie is clicked and shows trailer then stops when clicked again
