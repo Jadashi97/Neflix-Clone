@@ -1,4 +1,4 @@
-# Neflix-Clone
+# Netflix-Clone
 
 A Netflix clone built using React.js, Firebase, and TMDB API that mimics the functionality of Netflix.
 
